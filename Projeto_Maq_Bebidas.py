@@ -138,6 +138,7 @@ def sensor_ingredientes(x):
         print(f"leite = {leite} ml")
         print(f"chocolate = {chocolate} g")
         print(f"agua = {agua} ml")
+        print(f"copos = {copo}")
     if x == 1 :
         sensor_bebida = sensor_expresso()
         return sensor_bebida
